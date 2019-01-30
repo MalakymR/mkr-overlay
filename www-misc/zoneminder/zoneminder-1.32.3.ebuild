@@ -34,7 +34,7 @@ DESCRIPTION="Capture, analyse, record and monitor any cameras attached to your s
 HOMEPAGE="http://www.zoneminder.com/"
 
 LICENSE="GPL-2"
-IUSE="curl ffmpeg gcrypt gnutls +mmap +ssl libressl vlc"
+IUSE="curl +ffmpeg gcrypt gnutls +mmap +ssl libressl vlc"
 SLOT="0"
 
 REQUIRED_USE="
