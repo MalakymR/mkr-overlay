@@ -11,7 +11,8 @@
 2. Set your database settings in /etc/zm/zm.conf, including above zmpass
 
 3. Configure apache to use zoneminder, see /usr/share/doc/zoneminder*/10_zoneminder.conf
-   for an example configuration snippet.
+   for an example configuration snippet. Extract with:
+     bzip2 -d /usr/share/doc/zoneminder*/10_zoneminder.conf.bz2
 
 4. Enable PHP in your webserver configuration,
    APACHE2_OPTS="-D DEFAULT_VHOST -D INFO -D SSL -D SSL_DEFAULT_VHOST -D LANGUAGE -D PHP -D PROXY"
